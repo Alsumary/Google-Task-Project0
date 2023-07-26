@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google-advanced Search</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/adv.css">
+</head>
+
+<body>
+
+  <header class="adv-header">
+    <h1><img src="assets/images/logo.png" alt="test"></h1>
+    <div>
+      <a href="index.html">Google Search</a>
+      <a href="image-search.html">Image Search</a>
+    </div>
+
+  </header>
+  <br><br><br><br>
+
+  <h2 class="adv_text">Advanced Search</h2>
+  <div class="line"></div>
+
+  <form action="https://google.com/search">
+    <div class="full-div">
+
+      <div class="column main-column">
+
+
+        <span class="head-input-text">
+          Find pages with...
+        </span>
+
+        <div class="row">
+          <label for="first">all these words:</label>
+          <input type="text" id="first" name="as_q" />
+        </div>
+        <div class="row">
+          <label for="second">this exact word or phrase:</label>
+          <input type="text" id="second" name="as_epq" />
+        </div>
+        <div class="row">
+          <label for="third">any of these words:</label>
+          <input type="text" id="third" name="as_oq" />
+        </div>
+        <div class="row">
+          <label for="fourth">none of these words:</label>
+          <input type="text" id="fourth" name="as_eq" />
+        </div>
+        <div class="row2">
+          <label for="fivith">numbers ranging from: </label>
+          <div>
+            <input type="text" class="textinput1" id="fivth" value="" name="as_nlo">
+            <span class="seperator">to</span>
+            <input type="text" class="textinput2" id="fivith" value="" name="as_nhi">
+          </div>
+        </div>
+        <button type="submit" class="adv-btn">Advanced Search</button>
+      </div>
+
+
+      <div class="column details-column">
+        <span class="to-do-this">
+          To do this in the search box.
+        </span>
+
+
+        <div class="row">
+          <p>Type the important words: tri-colour rat terrier</p>
+        </div>
+
+        <div class="row">
+          <p>Put exact words in quotes: "rat terrier"</p>
+        </div>
+
+        <div class="row">
+          <p>Type OR between all the words you want: miniature OR standard</p>
+        </div>
+
+        <div class="row">
+          <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+        </div>
+        <div class="row">
+          <p>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</p>
+        </div>
+      </div>
+
+
+    </div>
+  </form>
+
+</body>
+
+</html>

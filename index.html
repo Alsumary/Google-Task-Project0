@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Search</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/img-index.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header id="header">
+    <a href="image-search.html">Image Search</a>
+    <a href="advanced-search.html">Advanced Search</a>
+  </header>
+  <section class="search-home">
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="">
+    </div>
+    <div>
+      <form class="formayh" id="form" action="https://www.google.com/search" method="get">
+        <div class="box">
+          <i class='bx bx-search-alt-2'></i>
+          <input type="search" id="query" name="q" class="search-bar">
+
+        </div>
+
+        <div class="buttons">
+          <input type="submit" value="Google Search" class="btn"></input>
+          <input type="button" value="i'm Feeling Lucky" class="btn"
+            onclick="window.location.href='https://www.google.com/doodles'"></input>
+        </div>
+      </form>
+
+    </div>
+  </section>
+</body>
+
+</html>

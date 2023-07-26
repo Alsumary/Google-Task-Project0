@@ -1,0 +1,144 @@
+.search-home,
+.search-image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
+  margin-bottom: 2rem;
+}
+
+.formayh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.btn:hover {
+  border: 1px solid #cdcdcd;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.logo h3 {
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin-left: -6rem;
+  color: #4285f4;
+  font-size: 1.4rem;
+}
+
+.box {
+  width: 60rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 30rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #cdcdcd;
+  margin: 2rem 0;
+}
+
+.box>i {
+  font-size: 2rem;
+  color: #777;
+}
+
+.box>input {
+  flex: 1;
+  height: 4rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.box:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.box:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 40rem;
+  }
+
+  .btn {
+    padding: 0 8px;
+    font-size: 1.2rem;
+  }
+
+  .logo h3 {
+    margin-left: -5.3rem;
+  }
+
+  img {
+    width: 80%;
+    margin-left: 3.5rem
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .box {
+    width: 30rem;
+    height: 3rem
+  }
+
+  img {
+    width: 70%;
+    margin-left: 5rem
+  }
+
+  .logo h3 {
+    margin-left: -4.5rem;
+    font-size: 1.3rem;
+
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .box {
+    width: 25rem;
+    height: 2rem;
+  }
+
+  .logo h3 {
+    display: none;
+  }
+
+  .btn {
+    padding: 0 4px;
+    font-size: 1rem;
+  }
+}
