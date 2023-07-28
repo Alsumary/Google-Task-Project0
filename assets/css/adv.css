@@ -103,12 +103,12 @@
 }
 
 .main-column {
-  width: 70%;
+  width: 50%;
 }
 
 .details-column {
   display: flex;
-  width: 30%;
+  width: 60%;
   align-items: flex-start;
   flex-direction: column;
 }
